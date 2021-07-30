@@ -3,6 +3,10 @@
    <application
         android:label="google_map_clone"
         android:icon="@mipmap/ic_launcher">
+
+        <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyBKyHaytnHdcVi3EQK1dlPiWgGlNIvOsRU"/>
+
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
